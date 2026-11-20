@@ -1,0 +1,35 @@
+body { margin: 0; display: flex; min-height: 100vh; font-size: 20px; }
+
+nav {
+    width: 20%;
+    background-color: #ffc0cb;
+    padding: 25px;
+}
+
+.right-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #f0e68c;
+    padding: 25px;
+}
+
+.middle {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+aside {
+    flex: 1;
+    background-color: #00ffff;
+    padding: 25px;
+}

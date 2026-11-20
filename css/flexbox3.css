@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.foto-box {
+    background-color: #e0e0e0;
+    border: 3px solid #1a1a1a;
+    border-radius: 8px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.foto-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Baris 1: 3 foto sejajar */
+.baris-1 {
+    flex: 1 1 calc(33.33% - 10px);
+}
+
+/* Baris 2: 5 foto sejajar */
+.baris-2 {
+    flex: 1 1 calc(20% - 10px);
+}
